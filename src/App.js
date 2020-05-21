@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 
 const App=()=>{
@@ -8,8 +9,10 @@ const App=()=>{
       <p>Vamos ver se vai dar certo!!!</p>
       <p>Consegui.</p>
       <p>Build criada, e servidor rodando.</p>
+      <Button />
     </div>
   );
 };
+
 
 export default App;

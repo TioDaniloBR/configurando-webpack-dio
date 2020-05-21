@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development",
-    "start:dev": "webpack-dev-server"
-    
+    "start:dev": "webpack-dev-server",
+    "eslint": "eslint ./src/*.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,8 +15,12 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^7.0.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-watch": "^6.0.1",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "webpack": "^4.43.0",

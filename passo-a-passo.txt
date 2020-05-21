@@ -1,0 +1,9 @@
+instalação eslint
+
+npm i --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
+
+criar arquivo .eslintrc na raiz do projeto
+adicionar eslint no script do package.json
+
+para rodar basta execcutar
+npm run eslint
