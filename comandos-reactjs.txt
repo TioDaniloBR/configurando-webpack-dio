@@ -1,0 +1,3 @@
+operador ternário
+
+{condição ? (se true) : (se false)}

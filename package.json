@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development",
-    "start:dev": "webpack-dev-server",
+    "start:dev": "webpack-dev-server --open",
     "eslint": "eslint ./src/*.js"
   },
   "author": "",
